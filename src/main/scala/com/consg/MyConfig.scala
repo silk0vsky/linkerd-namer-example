@@ -8,7 +8,7 @@ import io.buoyant.namer.NamerConfig
 case class MyConfig(rootDir: Directory) extends NamerConfig {
 
   @JsonIgnore
-  override def defaultPrefix: Path = Path.read("/io.my.fs")
+  override def defaultPrefix: Path = Path.read("/my.namer")
 
   @JsonIgnore
   def newNamer(params: Stack.Params) = {

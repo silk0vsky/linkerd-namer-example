@@ -8,7 +8,7 @@ class MyInitializer extends NamerInitializer {
 
   val configClass = classOf[MyConfig]
 
-  override def configId = "com.consg.MyInitializer"
+  override def configId = "com.consg.MyConfig"
 
 }
 
